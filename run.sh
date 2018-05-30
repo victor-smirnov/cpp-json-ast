@@ -1,0 +1,1 @@
+clang -Xclang -load -Xclang build/libtooling/libCppJsonAST.so -Xclang -plugin -Xclang JsonASTExporter -fsyntax-only $1 
